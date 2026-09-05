@@ -81,11 +81,74 @@
 			</div>
 
 			<div class="projects">
+				
+				<!-- 01 — Vehicle service dashboard (with side figure) -->
+				<article class="project project--media">
+					<div class="project-main">
+						<p class="project-eyebrow">
+							<span class="project-index">01 / 06</span>
+							<span class="project-cat">Operational Dashboard — Fleet Logistics</span>
+						</p>
+						<h3 class="project-title">Vehicle Service Monitoring Dashboard</h3>
+						<p class="project-lead">An Excel monitoring system that flags which fleet vehicles are on schedule, overdue, or not yet serviced.</p>
 
-				<!-- 01 — Stock forecasting (featured, with figure) -->
+						<ul class="metrics">
+							<li><span class="metric-value">334</span><span class="metric-label">Vehicles tracked</span></li>
+							<li><span class="metric-value">8 linked sheets</span><span class="metric-label">Pipeline</span></li>
+							<li><span class="metric-value">Built solo</span><span class="metric-label">Status, in use</span></li>
+						</ul>
+
+						<p class="method"><span class="method-key">Method</span>Excel · Data validation</p>
+
+						<p class="project-desc">Service records were collected manually from branches across the country. The workflow reshapes monthly submissions from wide to long format, checks them against the master fleet list, flags potential data issues, and feeds a dashboard showing which vehicles are on schedule, overdue, or not yet serviced. The monitoring rule is 180 days or 10,000 kilometers since the last service. The data shown is synthetic and does not contain FIFGROUP’s actual records.</p>
+
+						<p class="project-note">Internship project, FIFGROUP. All names, branch codes, and identifiers in the workbook are synthetic.</p>
+
+						<p class="project-actions">
+							<a class="link" href="assets/files/vehicle-service-monitoring-sample.xlsx" download>
+								Download sample workbook
+								<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+							</a>
+						</p>
+					</div>
+
+					<figure class="project-figure">
+						<img src="images/projects/service-dashboard.png" alt="Screenshot of the vehicle service dashboard">
+						<img src="images/projects/service-dashboard2.png" alt="Screenshot of the vehicle service dashboard 2">
+					</figure>
+				</article>
+
+				<!-- 02 — Chinook SQL (text only) -->
+				<article class="project">
+					<p class="project-eyebrow">
+						<span class="project-index">02 / 06</span>
+						<span class="project-cat">SQL Analytics — Retail</span>
+					</p>
+					<h3 class="project-title">Chinook Revenue Analysis</h3>
+					<p class="project-lead">Tracing where a digital music store’s revenue actually comes from, entirely in SQL.</p>
+
+					<ul class="metrics">
+						<li><span class="metric-value">2.13%</span><span class="metric-label">Top customer of revenue</span></li>
+						<li><span class="metric-value">73.5%</span><span class="metric-label">Top 4 genres of revenue</span></li>
+						<li><span class="metric-value">100% pass</span><span class="metric-label">Data-quality checks</span></li>
+					</ul>
+
+					<p class="method"><span class="method-key">Method</span>SQL</p>
+
+					<p class="project-desc">The analysis begins with data-quality checks such as comparing invoice totals with their line items and looking for orphaned records. Revenue turned out not to be heavily concentrated among a few customers: the largest accounted for 2.13% of the total, while 80% of revenue came from 47 of 59 customers. Genre had a stronger effect — Rock, Latin, Metal, and Alternative &amp; Punk made up more than 73% of sales.</p>
+
+					<p class="project-actions">
+						<a class="link link--muted" href="https://github.com/Yustian-Faza/sql-project-chinook" target="_blank" rel="noopener">
+							View code
+							<svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7 0-.7 0-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+						</a>
+					</p>
+				</article>
+
+				<!-- 03 — Stock forecasting (featured, with figure) -->
 				<article class="project project--featured">
 					<p class="project-eyebrow">
-						<span class="project-index">01 / 06</span>
+						<span class="project-index">03 / 06</span>
 						<span class="project-cat">Time-Series Forecasting — Capital Markets</span>
 					</p>
 					<h3 class="project-title">Hybrid ICEEMDAN–SVD–LSTM Stock Forecasting</h3>
@@ -115,11 +178,11 @@
 					</p>
 				</article>
 
-				<!-- 02 — Disease prediction (with side figure) -->
+				<!-- 04 — Disease prediction (with side figure) -->
 				<article class="project project--media">
 					<div class="project-main">
 						<p class="project-eyebrow">
-							<span class="project-index">02 / 06</span>
+							<span class="project-index">04 / 06</span>
 							<span class="project-cat">Classification, Deployed — Healthcare</span>
 						</p>
 						<h3 class="project-title">Symptom-Based Disease Prediction</h3>
@@ -155,10 +218,10 @@
 					</figure>
 				</article>
 
-				<!-- 03 — Milk production forecasting (text only) -->
+				<!-- 05 — Milk production forecasting (text only) -->
 				<article class="project">
 					<p class="project-eyebrow">
-						<span class="project-index">03 / 06</span>
+						<span class="project-index">05 / 06</span>
 						<span class="project-cat">Time-Series Forecasting — Food &amp; Agriculture Policy</span>
 					</p>
 					<h3 class="project-title">Forecasting Indonesia’s Milk Production &amp; Cattle Population</h3>
@@ -183,38 +246,12 @@
 						</p>
 				</article>
 
-				<!-- 04 — Chinook SQL (text only) -->
-				<article class="project">
-					<p class="project-eyebrow">
-						<span class="project-index">04 / 06</span>
-						<span class="project-cat">SQL Analytics — Retail</span>
-					</p>
-					<h3 class="project-title">Chinook Revenue Analysis</h3>
-					<p class="project-lead">Tracing where a digital music store’s revenue actually comes from, entirely in SQL.</p>
 
-					<ul class="metrics">
-						<li><span class="metric-value">2.13%</span><span class="metric-label">Top customer of revenue</span></li>
-						<li><span class="metric-value">73.5%</span><span class="metric-label">Top 4 genres of revenue</span></li>
-						<li><span class="metric-value">100% pass</span><span class="metric-label">Data-quality checks</span></li>
-					</ul>
-
-					<p class="method"><span class="method-key">Method</span>SQL</p>
-
-					<p class="project-desc">The analysis begins with data-quality checks such as comparing invoice totals with their line items and looking for orphaned records. Revenue turned out not to be heavily concentrated among a few customers: the largest accounted for 2.13% of the total, while 80% of revenue came from 47 of 59 customers. Genre had a stronger effect — Rock, Latin, Metal, and Alternative &amp; Punk made up more than 73% of sales.</p>
-
-					<p class="project-actions">
-						<a class="link link--muted" href="https://github.com/Yustian-Faza/sql-project-chinook" target="_blank" rel="noopener">
-							View code
-							<svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7 0-.7 0-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
-						</a>
-					</p>
-				</article>
-
-				<!-- 05 — Education clustering (with side figure) -->
+				<!-- 06 — Education clustering (with side figure) -->
 				<article class="project project--media">
 					<div class="project-main">
 						<p class="project-eyebrow">
-							<span class="project-index">05 / 06</span>
+							<span class="project-index">06 / 06</span>
 							<span class="project-cat">Unsupervised Clustering — Education Policy</span>
 						</p>
 						<h3 class="project-title">Clustering Districts by Education Access — Kabupaten Demak</h3>
@@ -238,40 +275,6 @@
 					</figure>
 				</article>
 
-				<!-- 06 — Vehicle service dashboard (with side figure) -->
-				<article class="project project--media">
-					<div class="project-main">
-						<p class="project-eyebrow">
-							<span class="project-index">06 / 06</span>
-							<span class="project-cat">Operational Dashboard — Fleet Logistics</span>
-						</p>
-						<h3 class="project-title">Vehicle Service Monitoring Dashboard</h3>
-						<p class="project-lead">An Excel monitoring system that flags which fleet vehicles are on schedule, overdue, or not yet serviced.</p>
-
-						<ul class="metrics">
-							<li><span class="metric-value">334</span><span class="metric-label">Vehicles tracked</span></li>
-							<li><span class="metric-value">8 linked sheets</span><span class="metric-label">Pipeline</span></li>
-							<li><span class="metric-value">Built solo</span><span class="metric-label">Status, in use</span></li>
-						</ul>
-
-						<p class="method"><span class="method-key">Method</span>Excel · Data validation</p>
-
-						<p class="project-desc">Service records were collected manually from branches across the country. The workflow reshapes monthly submissions from wide to long format, checks them against the master fleet list, flags potential data issues, and feeds a dashboard showing which vehicles are on schedule, overdue, or not yet serviced. The monitoring rule is 180 days or 10,000 kilometers since the last service. The data shown is synthetic and does not contain FIFGROUP’s actual records.</p>
-
-						<p class="project-note">Internship project, FIFGROUP. All names, branch codes, and identifiers in the workbook are synthetic.</p>
-
-						<p class="project-actions">
-							<a class="link" href="assets/files/vehicle-service-monitoring-sample.xlsx" download>
-								Download sample workbook
-								<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
-							</a>
-						</p>
-					</div>
-
-					<figure class="project-figure">
-						<img src="images/projects/service-dashboard.png" alt="Screenshot of the vehicle service dashboard">
-					</figure>
-				</article>
 
 			</div>
 		</section>
